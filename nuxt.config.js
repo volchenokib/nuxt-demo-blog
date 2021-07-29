@@ -134,7 +134,7 @@ module.exports = {
 		],
 
 		script:
-			process.env.NODE_ENV === "development"
+			process.env.NODE_ENV === "production"
 				? [
 						{
 							src:
