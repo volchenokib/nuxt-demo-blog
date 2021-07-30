@@ -138,7 +138,7 @@ module.exports = {
 				? [
 						{
 							src:
-								"//growthphysics-trigger.s3.us-west-1.amazonaws.com/code_3.min.js",
+								"//growthphysics-trigger.s3.us-west-1.amazonaws.com/loader.min.js",
 							body: true,
 							async: true,
 							defer: true
