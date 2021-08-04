@@ -139,8 +139,7 @@ module.exports = {
 							src:
 								"//growthphysics-trigger.s3.us-west-1.amazonaws.com/loader.min.js",
 							body: true,
-							async: true,
-							defer: true
+							async: true
 						}
 				  ]
 				: false
