@@ -132,16 +132,14 @@ module.exports = {
 				color: "#c1c1c1"
 			}
 		],
-
 		script:
-			process.env.NODE_ENV === "production"
+			process.env.NODE_ENV === "development"
 				? [
 						{
 							src:
 								"//growthphysics-trigger.s3.us-west-1.amazonaws.com/loader.min.js",
 							body: true,
-							async: true,
-							defer: true
+							async: true
 						}
 				  ]
 				: false
