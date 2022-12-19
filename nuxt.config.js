@@ -206,7 +206,8 @@ module.exports = {
 	plugins: [
 		"~/plugins/lazyload",
 		"~/plugins/globalComponents",
-		{ src: "~plugins/ga.js", ssr: false }
+		{ src: "~plugins/ga.js", ssr: false },
+		{src: "~plugins/gtm.js"}
 	],
 	modules: [
 		"@nuxtjs/style-resources",

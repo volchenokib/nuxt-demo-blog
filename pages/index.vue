@@ -1,6 +1,13 @@
 <template>
+
   <div class="page-index">
-    <div class="container">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXNJB88"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="container" data-test="{foo:bar}">
       <BlogSection :blogs="blogs"/>
     </div>
   </div>
